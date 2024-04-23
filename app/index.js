@@ -11,6 +11,7 @@ const App = () => {
           <Route path="/" element={
             <>
               <div>Hello!! This is S3 hosting. hosting is good</div>
+              <div> build test </div>
             </>
           } />
         </Routes>
