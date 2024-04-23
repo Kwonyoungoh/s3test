@@ -10,7 +10,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <>
-              <div>Hello!! This is S3 hosting. test</div>
+              <div>Hello!! This is S3 hosting. hosting is good</div>
             </>
           } />
         </Routes>
