@@ -11,7 +11,7 @@ const App = () => {
           <Route path="/" element={
             <>
               <div>Hello!! This is S3 hosting. hosting is good</div>
-              <div> cache test </div>
+              <div> cdn cache test </div>
             </>
           } />
         </Routes>
