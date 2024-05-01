@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './index.scss';
 
@@ -12,7 +12,7 @@ const App = () => {
             <>
               <div>Hello!! This is S3 hosting. hosting is good</div>
               <div> cdn cache test </div>
-              <div> re provisoning </div>
+              <div> Redeployment </div>
             </>
           } />
         </Routes>
@@ -21,4 +21,5 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('app'));
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<App />);
